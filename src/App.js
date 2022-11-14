@@ -1,5 +1,5 @@
 import "./App.css";
-import MyButton from "./MyButton";
+import MyButton from "./components/MyButton";
 import {useState} from 'react'
 // want to make a COUNTER app
 // 1. make a button
