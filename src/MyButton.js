@@ -1,5 +1,5 @@
-const myButton = () => {
-  return <button>Buy Now!</button>
+const MyButton = ({title, color}) => {
+  return <button style={{backgroundColor: color}}>{title}</button>
 };
 
-export default myButton;
+export default MyButton;
